@@ -1,1 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+<!-- {% static 'images' as baseUrl %} -->
+{% block content %}
 <h1>dsgksrhglserhgerhg</h1>
+
+<h1>dsajdlkgjdsla</h1>
+{% for userdata in datas %}
+    <h1>{{userdata.patient }}</h1>
+    <img src="{{ userdata.reports.url }}" alt=""no img is there"">
+    <h3>{{ userdata.disease }}</h3>
+{% endfor %}
+{% endblock %}
