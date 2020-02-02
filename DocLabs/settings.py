@@ -69,7 +69,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'DocLabs.wsgi.application'
 
-
+#fgdgjfkhdfkgdhdhkd
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 
